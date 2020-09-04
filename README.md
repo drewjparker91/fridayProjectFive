@@ -31,16 +31,16 @@ _The purpose of this application is to feature what I have learned in the fifth 
 	expected output: 1.6863
 * Spec: return user's number of years left to live on a Earth according to user inputted age and life expectancy
 	expected input: 20, 80
-	expected output:250
+	expected output:60
 * Spec: return user's number of years left to live on a Mercury according to user inputted age and life expectancy
 	expected input: 20, 80
-	expected output: 96.7742
+	expected output: 250
 * Spec: return user's number of years left to live on a Venus according to user inputted age and life expectancy
 	expected input: 20, 80
-	expected output: 31. 9149
+	expected output: 96.7742
 * Spec: return user's number of years left to live on a Mars according to user inputted age and life expectancy
 	expected input: 20, 80
-	expected output: 5.0591
+	expected output: 31.9149
 * Spec: return user's number of years left to live on a Jupiter according to user inputted age and life expectancy
 	expected input:
 	expected output:
