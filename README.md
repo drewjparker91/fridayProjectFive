@@ -29,9 +29,12 @@ _The purpose of this application is to feature what I have learned in the fifth 
 * Spec: return user's age in Jupiter years.
 	expected input: 20
 	expected output: 1.6863
-* Spec: return user's number of years left to live on a planet according to their sex, and whether they exercise. 
+* Spec: return user's number of years left to live on a Earth according to user inputted age and life expectancy
 	expected input:
 	expected output:
+* Spec: return user's number of years left to live on a Venus according to user inputted age and life expectancy
+* Spec: return user's number of years left to live on a Mars according to user inputted age and life expectancy
+* Spec: return user's number of years left to live on a Jupiter according to user inputted age and life expectancy
 * Spec: return user's years lived past life expectancy on a  planet.
 	expected input:
 	expected output:
