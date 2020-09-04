@@ -10,10 +10,10 @@ export class UserInfo{
     return mercuryAge
   }
 
-  // venusAge(years) {
-  //   let venusAge = parseFloat((years/.62).toFixed(4))
-  //   return venusAge
-  // }
+  venusAge(years) {
+    let venusAge = parseFloat((years/.62).toFixed(4))
+    return venusAge
+  }
 
   // marsAge(years) {
   //   let marsAge = parseFloat((years/1.88).toFixed(4))
