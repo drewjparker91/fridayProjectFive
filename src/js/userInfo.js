@@ -37,4 +37,5 @@ export class UserInfo{
     let yearsLeftVenus = parseFloat(((this.lifeExpectancy - this.age)/.62).toFixed(4))
     return yearsLeftVenus
   }
-} 
+
+}
