@@ -20,10 +20,10 @@ export class UserInfo{
     return marsAge
   }
 
-  // jupiterAge(years) {
-  //   let jupiterAge = parseFloat((year/11.86).toFixed(4))
-  //   return jupiterAge
-  // }
+  jupiterAge(years) {
+    let jupiterAge = parseFloat((years/11.86).toFixed(4))
+    return jupiterAge
+  }
 
   
 } 
