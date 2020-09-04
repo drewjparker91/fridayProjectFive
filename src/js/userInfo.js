@@ -38,4 +38,8 @@ export class UserInfo{
     return yearsLeftVenus
   }
 
+  yearsLeftMars() {
+    let yearsLeftMars = parseFloat(((this.lifeExpectancy - this.age)/1.88).toFixed(4))
+    return yearsLeftMars
+  }
 }
