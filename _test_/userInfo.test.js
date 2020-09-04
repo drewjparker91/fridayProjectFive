@@ -29,11 +29,11 @@ describe('UserInfo', () => {
     })
     
     test ('should return years left remaining on earth based on user inputted life expectancy', () => {
-      expect (reusableUserInfo.yearsLeftEarth()).toEqual(60);
+      expect (reusableUserInfo.yearsLeftEarth()).toEqual(60.0000);
     })
 
     test ('should return years left remaining on Mercury based on user inputted age and life expectancy', () => {
-      expect (reusableUserInfo.yearsLeftMercury()).toEqual(250)
+      expect (reusableUserInfo.yearsLeftMercury()).toEqual(250.0000)
     })
 
     test ('should return years left remaining on Venus based on user inputted age and life expectancy', () => {
@@ -45,6 +45,6 @@ describe('UserInfo', () => {
     })
 
     test('should return years left remaining on Jupiter based on user inputted age and life expectancy', () => {
-      
+      expect (reusableUserInfo.yearsLeftJupiter()).toEqual(5.0590)
     })
 })

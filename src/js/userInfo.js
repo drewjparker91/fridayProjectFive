@@ -24,7 +24,7 @@ export class UserInfo{
   }
   
   yearsLeftEarth() {
-    let yearsLeftEarth = this.lifeExpectancy - this.age
+    let yearsLeftEarth = parseFloat((this.lifeExpectancy - this.age).toFixed(4))
     return yearsLeftEarth
   }
 
@@ -41,5 +41,10 @@ export class UserInfo{
   yearsLeftMars() {
     let yearsLeftMars = parseFloat(((this.lifeExpectancy - this.age)/1.88).toFixed(4))
     return yearsLeftMars
+  }
+
+  yearsLeftJupiter() {
+    let yearsLeftJupiter = parseFloat(((this.lifeExpectancy - this.age)/11.86).toFixed(4))
+    return yearsLeftJupiter
   }
 }

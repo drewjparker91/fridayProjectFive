@@ -42,8 +42,8 @@ _The purpose of this application is to feature what I have learned in the fifth 
 	expected input: 20, 80
 	expected output: 31.9149
 * Spec: return user's number of years left to live on a Jupiter according to user inputted age and life expectancy
-	expected input:
-	expected output:
+	expected input: 20,80
+	expected output: 5.0590
 * Spec: return user's years lived past life expectancy on a  planet.
 	expected input:
 	expected output:
