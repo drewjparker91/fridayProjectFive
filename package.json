@@ -1,7 +1,7 @@
 {
   "name": "fridayprojectfive",
   "version": "1.0.0",
-  "description": "",
+  "description": "Fifth Friday Project at Epicodus",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode development",

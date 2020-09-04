@@ -78,3 +78,16 @@ export class UserInfo{
     return yearsPastJupiter;
   }
 }
+
+// function getPlanetAge(planetName){
+//   if (planetName === "Mercury"){
+//     return .24;
+//   }else if (planetName === "Venus"){
+//     return .62;
+//   }else if (planetName === "Mars"){
+//     return 1.88;
+//   }else if (planetName === "Jupiter"){
+//     return 11.86;
+//   }else 
+//     return 1;
+// }
