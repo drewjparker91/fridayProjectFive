@@ -58,7 +58,7 @@ _The purpose of this application is to feature what I have learned in the fifth 
 	expected output: 5.3191
 * Spec: return user's years lived past life expectancy on Jupiter.
 	expected input:90, 80
-	expected output: 0.8431
+	expected output: 0.8432
 
 ## Known Bugs
 
