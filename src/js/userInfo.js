@@ -1,80 +1,80 @@
 export class UserInfo{
   constructor(age, lifeExpectancy) {
     this.age = age; 
-    this.lifeExpectancy = lifeExpectancy
+    this.lifeExpectancy = lifeExpectancy;
   }  
   mercuryAge(years) {
-    let mercuryAge = parseFloat((years/.24).toFixed(4))
-    return mercuryAge
+    let mercuryAge = parseFloat((years/.24).toFixed(4));
+    return mercuryAge;
   }
 
   venusAge(years) {
-    let venusAge = parseFloat((years/.62).toFixed(4))
-    return venusAge
+    let venusAge = parseFloat((years/.62).toFixed(4));
+    return venusAge;
   }
 
   marsAge(years) {
-    let marsAge = parseFloat((years/1.88).toFixed(4))
-    return marsAge
+    let marsAge = parseFloat((years/1.88).toFixed(4));
+    return marsAge;
   }
 
   jupiterAge(years) {
-    let jupiterAge = parseFloat((years/11.86).toFixed(4))
-    return jupiterAge
+    let jupiterAge = parseFloat((years/11.86).toFixed(4));
+    return jupiterAge;
   }
   
   //if negative number is returned, user prompted that the output is the number of years lived past life expectancy
   yearsLeftEarth() {
-    let yearsLeftEarth = parseFloat((this.lifeExpectancy - this.age).toFixed(4))
-    return yearsLeftEarth
+    let yearsLeftEarth = parseFloat((this.lifeExpectancy - this.age).toFixed(4));
+    return yearsLeftEarth;
   }
 
   //if negative number is returned, user prompted that the output is the number of years lived past life expectancy
   yearsLeftMercury() {
-    let yearsLeftMercury = parseFloat(((this.lifeExpectancy - this.age)/.24).toFixed(4))
-    return yearsLeftMercury
+    let yearsLeftMercury = parseFloat(((this.lifeExpectancy - this.age)/.24).toFixed(4));
+    return yearsLeftMercury;
   }
 
   //if negative number is returned, user prompted that the output is the number of years lived past life expectancy
   yearsLeftVenus() {
-    let yearsLeftVenus = parseFloat(((this.lifeExpectancy - this.age)/.62).toFixed(4))
-    return yearsLeftVenus
+    let yearsLeftVenus = parseFloat(((this.lifeExpectancy - this.age)/.62).toFixed(4));
+    return yearsLeftVenus;
   }
 
   //if negative number is returned, user prompted that the output is the number of years lived past life expectancy
   yearsLeftMars() {
-    let yearsLeftMars = parseFloat(((this.lifeExpectancy - this.age)/1.88).toFixed(4))
-    return yearsLeftMars
+    let yearsLeftMars = parseFloat(((this.lifeExpectancy - this.age)/1.88).toFixed(4));
+    return yearsLeftMars;
   }
 
   //if negative number is returned, user prompted that the output is the number of years lived past life expectancy
   yearsLeftJupiter() {
-    let yearsLeftJupiter = parseFloat(((this.lifeExpectancy - this.age)/11.86).toFixed(4))
-    return yearsLeftJupiter
+    let yearsLeftJupiter = parseFloat(((this.lifeExpectancy - this.age)/11.86).toFixed(4));
+    return yearsLeftJupiter;
   }
 
   yearsPastEarth() {
-    let yearsPastEarth = parseFloat(((this.lifeExpectancy - this.age)*-1).toFixed(4))
-    return yearsPastEarth
+    let yearsPastEarth = parseFloat(((this.lifeExpectancy - this.age)*-1).toFixed(4));
+    return yearsPastEarth;
   }
 
   yearsPastMercury() {
-    let yearsPastMercury = parseFloat((((this.lifeExpectancy - this.age)/.24)*-1).toFixed(4))
-    return yearsPastMercury
+    let yearsPastMercury = parseFloat((((this.lifeExpectancy - this.age)/.24)*-1).toFixed(4));
+    return yearsPastMercury;
   }
 
   yearsPastVenus() {
-  let yearsPastVenus = parseFloat((((this.lifeExpectancy - this.age)/.62)*-1).toFixed(4))
-  return yearsPastVenus
+    let yearsPastVenus = parseFloat((((this.lifeExpectancy - this.age)/.62)*-1).toFixed(4));
+    return yearsPastVenus;
   }
 
   yearsPastMars() {
-    let yearsPastMars = parseFloat((((this.lifeExpectancy - this.age)/1.88)*-1).toFixed(4))
-    return yearsPastMars
+    let yearsPastMars = parseFloat((((this.lifeExpectancy - this.age)/1.88)*-1).toFixed(4));
+    return yearsPastMars;
   }
 
   yearsPastJupiter() {
-    let yearsPastJupiter = parseFloat((((this.lifeExpectancy - this.age)/11.86)*-1).toFixed(4))
-    return yearsPastJupiter
+    let yearsPastJupiter = parseFloat((((this.lifeExpectancy - this.age)/11.86)*-1).toFixed(4));
+    return yearsPastJupiter;
   }
 }
