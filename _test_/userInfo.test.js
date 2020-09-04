@@ -28,36 +28,22 @@ describe('UserInfo', () => {
       expect(reusableUserInfo.jupiterAge(reusableUserInfo.age)).toEqual(1.6863);
     })
     
-    test ('should return years left remaining on earth based on user inputted life expectancy', () => {
+    test ('should return years left remaining on a planet based on user inputted life expectancy', () => {
+      if (reusableUserInfo.age < reusableUserInfo.lifeExpectancy)
       expect (reusableUserInfo.yearsLeftEarth()).toEqual(60.0000);
+      expect (reusableUserInfo.yearsLeftMercury()).toEqual(250.0000);
+      expect (reusableUserInfo.yearsLeftVenus()).toEqual(96.7742);
+      expect (reusableUserInfo.yearsLeftMars()).toEqual(31.9149);
+      expect (reusableUserInfo.yearsLeftJupiter()).toEqual(5.0590);
     })
-
-    test ('should return years left remaining on Mercury based on user inputted age and life expectancy', () => {
-      expect (reusableUserInfo.yearsLeftMercury()).toEqual(250.0000)
-    })
-
-    test ('should return years left remaining on Venus based on user inputted age and life expectancy', () => {
-      expect (reusableUserInfo.yearsLeftVenus()).toEqual(96.7742)
-    })
-
-    test ('should return years left remaining on Mars based on user inputted age and life expectancy', () => {
-      
-      expect (reusableUserInfo.yearsLeftMars()).toEqual(31.9149)
-    })
-
-    test('should return years left remaining on Jupiter based on user inputted age and life expectancy', () => {
-      expect (reusableUserInfo.yearsLeftJupiter()).toEqual(5.0590)
-    })
-
-    
     
     test('should return years past life expectancty on plants when age is greater than life expectanct on earth', () => {
       const userInfo1 = new UserInfo (90,80);
       if (userInfo1.age >= userInfo1.lifeExpectancy)
-      expect(userInfo1.yearsPastEarth()).toEqual(10.0000)
-      expect(userInfo1.yearsPastMercury()).toEqual(41.6667)
-      expect(userInfo1.yearsPastVenus()).toEqual(16.1290)
-      expect(userInfo1.yearsPastMars()).toEqual(5.3191)
-      expect(userInfo1.yearsPastJupiter()).toEqual(0.8432)
+      expect(userInfo1.yearsPastEarth()).toEqual(10.0000);
+      expect(userInfo1.yearsPastMercury()).toEqual(41.6667);
+      expect(userInfo1.yearsPastVenus()).toEqual(16.1290);
+      expect(userInfo1.yearsPastMars()).toEqual(5.3191);
+      expect(userInfo1.yearsPastJupiter()).toEqual(0.8432);
     })
 })
