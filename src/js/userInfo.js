@@ -1,8 +1,6 @@
 export class UserInfo{
-  constructor(age, sex, exercise, lifeExpectancy) {
-    this.age = age;
-    this.sex = sex;
-    this.exercise = exercise;
+  constructor(age, lifeExpectancy) {
+    this.age = age; 
     this.lifeExpectancy = lifeExpectancy
   }  
   mercuryAge(years) {
@@ -24,6 +22,10 @@ export class UserInfo{
     let jupiterAge = parseFloat((years/11.86).toFixed(4))
     return jupiterAge
   }
-
   
+  yearsLeftEarth() {
+    let yearsLeftEarth = this.lifeExpectancy - this.Age
+    return yearsLeftEarth
+  }
+
 } 
