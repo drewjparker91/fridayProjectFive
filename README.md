@@ -10,10 +10,12 @@ _The purpose of this application is to feature what I have learned in the fifth 
 
 ## Setup/Installation Requirements
 
+
 * _Clone this repository from github._
 * _Navigate to the root directory of the project in the terminal_
-* _Type 'open index.html to view project in the terminal._
-* _Open the project in your text editor to view code._
+* Run "npm install" in your terminal
+* Run "npm run build" in your terminal
+* Run "npm run start" in your terminal
 
 ## Specs
 
@@ -75,6 +77,9 @@ _If you run into any questions, comments, or concerns, please reach out to Drew 
 * Bootstrap
 * Javascript
 * jQuery
+* webpack
+* eslint
+* babel
 
 ### License
 
