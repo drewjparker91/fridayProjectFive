@@ -49,4 +49,8 @@ describe('UserInfo', () => {
       expect (reusableUserInfo.yearsLeftJupiter()).toEqual(5.0590)
     })
 
+    test('return years past life expectancy when left expectancy is less than age on earth', () => {
+      const userinfo1 = new UserInfo (90, 80)
+    })
+
 })
