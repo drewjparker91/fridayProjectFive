@@ -10,6 +10,6 @@ describe('UserInfo', () => {
 
     test('should return age on Venus based on user inputted age', () => {
       const userInfo = new UserInfo(20)
-      expect(userInfo.venusAge(userInfo.age)).toEqual(1);
+      expect(userInfo.venusAge(userInfo.age)).toEqual(32.2581);
     })
 })
