@@ -5,7 +5,7 @@ describe('UserInfo', () => {
     let reusableUserInfo;
 
     beforeEach (() => {
-      reusableUserInfo = new UserInfo(20);
+      reusableUserInfo = new UserInfo(20, 75);
     });
 
     test('should return age on Mercury based on user inputted age', () => {
@@ -28,4 +28,8 @@ describe('UserInfo', () => {
       expect(reusableUserInfo.jupiterAge(reusableUserInfo.age)).toEqual(1.6863);
     })
     
+    test ('should return years left remaining on earth based on user inputted life expectancy', () => {
+      expect (reusableUserInfo.yearsLeftEarth(reusableUserInfo())).toEqual(50);
+    })
+
 })
