@@ -68,4 +68,7 @@ describe('UserInfo', () => {
       const userInfo1 = new UserInfo (90, 80);
       expect(userInfo1.yearsPastMars()).toEqual(5.3191)
     })
+
+    test('return years past life expectancy on Jupiter when age is greater than life expectancy on earth', () => {
+      const userInfo1 = new UserInfo (90, 80);
 })
