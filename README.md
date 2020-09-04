@@ -34,7 +34,7 @@ _The purpose of this application is to feature what I have learned in the fifth 
 	expected output:250
 * Spec: return user's number of years left to live on a Mercury according to user inputted age and life expectancy
 	expected input: 20, 80
-	expected output: 96.7741
+	expected output: 96.7742
 * Spec: return user's number of years left to live on a Venus according to user inputted age and life expectancy
 	expected input: 20, 80
 	expected output: 31. 9149

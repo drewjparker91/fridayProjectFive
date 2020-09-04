@@ -24,17 +24,17 @@ export class UserInfo{
   }
   
   yearsLeftEarth() {
-    let yearsLeftEarth = (this.lifeExpectancy - this.age)
+    let yearsLeftEarth = this.lifeExpectancy - this.age
     return yearsLeftEarth
   }
 
   yearsLeftMercury() {
-    let yearsLeftMercury = ((this.lifeExpectancy - this.age)/.24.toFixed(4))
+    let yearsLeftMercury = parseFloat(((this.lifeExpectancy - this.age)/.24).toFixed(4))
     return yearsLeftMercury
   }
 
   yearsLeftVenus() {
-    let yearsLeftVenus = ((this.lifeExpectancy - this.age)/.62.toFixed(4))
+    let yearsLeftVenus = parseFloat(((this.lifeExpectancy - this.age)/.62).toFixed(4))
     return yearsLeftVenus
   }
 } 
