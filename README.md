@@ -52,7 +52,7 @@ _The purpose of this application is to feature what I have learned in the fifth 
 	expected output: 41.6667
 * Spec: return user's years lived past life expectancy on Venus.
 	expected input:90, 80
-	expected output: 16.1291
+	expected output: 16.1290
 * Spec: return user's years lived past life expectancy on Mars.
 	expected input:90, 80
 	expected output: 5.3191

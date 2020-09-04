@@ -49,40 +49,15 @@ describe('UserInfo', () => {
       expect (reusableUserInfo.yearsLeftJupiter()).toEqual(5.0590)
     })
 
-    test('return years past life expectancy on Earth when age is greater than life expectancy on earth', () => {
-      const userInfo1 = new UserInfo (90, 80);
-      expect(userInfo1.yearsPastEarth()).toEqual(10.0000)
-    })
-
     
     
     test('should return years past life expectancty on plants when age is greater than life expectanct on earth', () => {
-      const userInfo1 = new UserInfo (90,80)
+      const userInfo1 = new UserInfo (90,80);
+      if (userInfo1.age >= userInfo1.lifeExpectancy)
+      expect(userInfo1.yearsPastEarth()).toEqual(10.0000)
       expect(userInfo1.yearsPastMercury()).toEqual(41.6667)
       expect(userInfo1.yearsPastVenus()).toEqual(16.1290)
       expect(userInfo1.yearsPastMars()).toEqual(5.3191)
       expect(userInfo1.yearsPastJupiter()).toEqual(0.8432)
     })
-      
-    
-    
-    // test('return years past life expectancy on Mercury when age is greater than life expectancy on earth', () => {
-    //   const userInfo1 = new UserInfo (90, 80);
-    //   expect(userInfo1.yearsPastMercury()).toEqual(41.6667)
-    // })
-
-    // test('return years past life expectancy on Venus when age is greater than life expectancy on earth', () => {
-    //   const userInfo1 = new UserInfo (90, 80);
-    //   expect(userInfo1.yearsPastVenus()).toEqual(16.1290)
-    // })
-
-    // test('return years past life expectancy on Mars when age is greater than life expectancy on earth', () => {
-    //   const userInfo1 = new UserInfo (90, 80);
-    //   expect(userInfo1.yearsPastMars()).toEqual(5.3191)
-    // })
-
-    // test('return years past life expectancy on Jupiter when age is greater than life expectancy on earth', () => {
-    //   const userInfo1 = new UserInfo (90, 80);
-    //   expect(userInfo1.yearsPastJupiter()).toEqual(0.8432)
-    // })
 })
