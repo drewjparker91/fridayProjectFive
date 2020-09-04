@@ -37,6 +37,6 @@ describe('UserInfo', () => {
     })
 
     test ('should return years left remaining on Venus based on user inputted age and life expectancy', () => {
-      
+      expect (reusableUserInfo.yearsLeftVenus()).toEqual(10)
     })
 })

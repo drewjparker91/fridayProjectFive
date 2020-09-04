@@ -32,4 +32,9 @@ export class UserInfo{
     let yearsLeftMercury = ((this.lifeExpectancy - this.age)/.24.toFixed(4))
     return yearsLeftMercury
   }
+
+  yearsLeftVenus() {
+    let yearsLeftVenus = ((this.lifeExpectancy - this.age)/.62.toFixed(4))
+    return yearsLeftVenus
+  }
 } 
