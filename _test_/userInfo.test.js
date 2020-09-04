@@ -41,10 +41,12 @@ describe('UserInfo', () => {
     })
 
     test ('should return years left remaining on Mars based on user inputted age and life expectancy', () => {
+      
       expect (reusableUserInfo.yearsLeftMars()).toEqual(31.9149)
     })
 
     test('should return years left remaining on Jupiter based on user inputted age and life expectancy', () => {
       expect (reusableUserInfo.yearsLeftJupiter()).toEqual(5.0590)
     })
+
 })
