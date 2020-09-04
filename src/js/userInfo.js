@@ -15,10 +15,10 @@ export class UserInfo{
     return venusAge
   }
 
-  // marsAge(years) {
-  //   let marsAge = parseFloat((years/1.88).toFixed(4))
-  //   return marsAge
-  // }
+  marsAge(years) {
+    let marsAge = parseFloat((years/1.88).toFixed(4))
+    return marsAge
+  }
 
   // jupiterAge(years) {
   //   let jupiterAge = parseFloat((year/11.86).toFixed(4))
