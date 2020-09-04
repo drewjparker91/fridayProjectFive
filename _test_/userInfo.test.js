@@ -66,5 +66,6 @@ describe('UserInfo', () => {
 
     test('return years past life expectancy on Mars when age is greater than life expectancy on earth', () => {
       const userInfo1 = new UserInfo (90, 80);
-
+      expect(userInfo1.yearsPastMars()).toEqual(16.1290)
+    })
 })

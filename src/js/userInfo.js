@@ -67,4 +67,9 @@ export class UserInfo{
   let yearsPastVenus = parseFloat((((this.lifeExpectancy - this.age)/.62)*-1).toFixed(4))
   return yearsPastVenus
   }
+
+  yearsPastMars() {
+    let yearsPastMars = parseFloat((((this.lifeExpectancy - this.age)/1.88)*-1).toFixed(4))
+    return yearsPastMars
+    }
 }
