@@ -29,7 +29,7 @@ describe('UserInfo', () => {
     })
     
     test ('should return years left remaining on earth based on user inputted life expectancy', () => {
-      expect (reusableUserInfo.yearsLeftEarth(reusableUserInfo())).toEqual(50);
+      expect (reusableUserInfo.yearsLeftEarth()).toEqual(50);
     })
 
 })

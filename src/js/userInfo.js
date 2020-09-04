@@ -24,7 +24,7 @@ export class UserInfo{
   }
   
   yearsLeftEarth() {
-    let yearsLeftEarth = this.lifeExpectancy - this.Age
+    let yearsLeftEarth = (this.lifeExpectancy - this.age)
     return yearsLeftEarth
   }
 
