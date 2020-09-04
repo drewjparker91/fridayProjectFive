@@ -51,16 +51,17 @@ describe('UserInfo', () => {
 
     test('return years past life expectancy on Earth when age is greater than life expectancy on earth', () => {
       const userInfo1 = new UserInfo (90, 80);
-      expect(userInfo1.yearsPastEarth()).toEqual (10.0000)
+      expect(userInfo1.yearsPastEarth()).toEqual(10.0000)
     })
 
     test('return years past life expectancy on Mercury when age is greater than life expectancy on earth', () => {
       const userInfo1 = new UserInfo (90, 80);
-      expect(userInfo1.yearsPastMercury()).toEqual (41.6667)
+      expect(userInfo1.yearsPastMercury()).toEqual(41.6667)
     })
 
     test('return years past life expectancy on Venus when age is greater than life expectancy on earth', () => {
-
+      const userInfo1 = new UserInfo (90, 80);
+      expect(userInfo1.yearsPastVenus()).toEqual(16)
     })
 
 })
