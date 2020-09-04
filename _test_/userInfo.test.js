@@ -49,18 +49,18 @@ describe('UserInfo', () => {
       expect (reusableUserInfo.yearsLeftJupiter()).toEqual(5.0590)
     })
 
-    test('return years past life expectancy on earth when age is greater than life expectancy on earth', () => {
+    test('return years past life expectancy on Earth when age is greater than life expectancy on earth', () => {
       const userInfo1 = new UserInfo (90, 80);
       expect(userInfo1.yearsPastEarth()).toEqual (10.0000)
     })
 
-    test('return years past life expectancy on mercury when age is greater than life expectancy on earth', () => {
+    test('return years past life expectancy on Mercury when age is greater than life expectancy on earth', () => {
       const userInfo1 = new UserInfo (90, 80);
-      expect(userInfo1.yearsPastMercury()).toEqual (10.0000)
+      expect(userInfo1.yearsPastMercury()).toEqual (41.6667)
     })
 
+    test('return years past life expectancy on Venus when age is greater than life expectancy on earth', () => {
 
-
-
+    })
 
 })

@@ -44,12 +44,21 @@ _The purpose of this application is to feature what I have learned in the fifth 
 * Spec: return user's number of years left to live on a Jupiter according to user inputted age and life expectancy
 	expected input: 20,80
 	expected output: 5.0590
-* Spec: return user's years lived past life expectancy on a  planet.
-	expected input:
-	expected output:
-* Spec: user must input a positive integer
-  expected input:
-  expected output:
+* Spec: return user's years lived past life expectancy on earth.
+	expected input:90, 80
+	expected output: 10
+* Spec: return user's years lived past life expectancy on Mercury.
+	expected input:90, 80
+	expected output: 41.6667
+* Spec: return user's years lived past life expectancy on Venus.
+	expected input:90, 80
+	expected output: 16.1291
+* Spec: return user's years lived past life expectancy on Mars.
+	expected input:90, 80
+	expected output: 5.3191
+* Spec: return user's years lived past life expectancy on Jupiter.
+	expected input:90, 80
+	expected output: 0.8431
 
 ## Known Bugs
 
